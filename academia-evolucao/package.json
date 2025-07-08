@@ -1,6 +1,7 @@
 {
   "name": "academia-evolucao",
   "private": true,
+  "homepage": "https://academiaevolucao.github.io/Landing-Page-Academia-Evolucao/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +11,7 @@
     "preview": "vite preview",
     "copy404": "copyfiles -f dist/index.html dist/404.html",
     "predeploy": "npm run build && npm run copy404",
-    "deploy": "gh-pages -d dist -b deploy-site -f"
+    "deploy": "gh-pages -d dist -b deploy-page -f"
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
